@@ -1,0 +1,14 @@
+{
+  "name": "TypeScript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Amandaaaaabreu/TypeScript.git",
+  "author": "Amanda Abreu <103958998+Amandaaaaabreu@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
