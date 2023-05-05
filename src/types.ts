@@ -43,3 +43,23 @@ coisa2 = 2  //number
 
 let coisa3 : any 
 coisa2 = ['amanda', 2] // array
+
+// void (vazio)
+function teste() : void { // não é necessário tipar, deixar claro que é void
+    console.log('amanda')
+}
+
+// null and underfine (o valor nao foi definido) (na pratica os dois nao tem diferença)
+type Bla = string | undefined
+
+// never (nunca vai retornar)
+function error() : never {
+    throw new Error("error") // (erro nunca retorna)
+}
+
+//object (tudo aquilo que não é number, array, string, boolean)
+let test : object
+test = {
+    key : "fi"
+}
+
