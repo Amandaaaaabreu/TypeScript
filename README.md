@@ -1,5 +1,5 @@
 # TypeScript
-Entendendo como TypeScript funciona.  <br>
+<h2>Entendendo como TypeScript funciona.</h2>  <br>
 
 O TypeScript geralmente é considerado como uma linguagem de programação, mas ela não pode ser tratada como uma linguagem completamente nova, e sim um superste (ou superconjunto) do JavaScript. <br>
 
