@@ -1,7 +1,7 @@
 // as classes não sao obrigatórias no typescript.
 
 class userConta{
-    name: string;
+    private name: string;
     idade: number;
 
     constructor(name:string, idade:number){
