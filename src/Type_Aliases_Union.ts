@@ -18,3 +18,9 @@ logInfo('123', 'sexta'); // como posso usar duas strings ao mesmo tempo
 //CRIANDO UM TYPE ALIASE
 // Com o type aliase eu consigo facilitar o meu codigo, para nao escrever a mesma coisa varias vezes.
 type Uid = number | string
+
+type Plataforma = 'Windows' | 'Linux' | 'Mac Os'
+
+function renderPlataforma(plataforma: Plataforma){
+    return plataforma;
+}
