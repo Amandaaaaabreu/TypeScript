@@ -9,4 +9,14 @@ const tlou = {
     }
 };
 console.log(tlou.title);
-tlou.getSmilars(tlou.title);
+if (tlou.getSmilars) { // se existir meu metodo getSimilars aí eu chamo ele
+    tlou.getSmilars(tlou.title);
+}
+const leftbehind = {
+    title: "The Last of Us - Left Behind",
+    description: "You play as Ellie before the original game",
+    genre: "Action",
+    plataform: ['PS5'],
+    originalTela: tlou,
+    newContent: ["3 hours story", "new characteres"],
+};

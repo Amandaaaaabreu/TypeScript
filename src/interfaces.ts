@@ -1,8 +1,8 @@
 interface Tela{
-    title : string;
-    description: string;
+    title : string ;
+    description: string | number;
     genre: string;
-    plataform: string[];
+    plataform?: string[];
     getSmilars?: (title: string) => void;
 }
 
@@ -38,3 +38,17 @@ const leftbehind: DLC = { // passando as informacoes da interface original para 
        newContent: ["3 hours story","new characteres"],
 
 };
+
+// As interfaces servem somente para criação de objetos mais complexos.
+
+class CreateGame implements Tela{  // interface sendo usada com classe.
+    title : string;
+    description: string;
+    genre: string;
+    
+    constructor(t: string, d:string, g: string){
+        this.title = t;
+        this.description = d;
+        this.genre = g;
+    }
+}
