@@ -1,6 +1,6 @@
 "use strict";
 // serve para reutilização de codigo.
-function UseState() {
+function useState() {
     let state;
     function getState() {
         return state;
@@ -10,6 +10,6 @@ function UseState() {
     }
     return { getState, setState };
 }
-const newState = UseState();
-newState.setState(458);
+const newState = useState();
+newState.setState('Amanda');
 console.log(newState.getState());
