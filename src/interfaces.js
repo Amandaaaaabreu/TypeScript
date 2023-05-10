@@ -20,3 +20,11 @@ const leftbehind = {
     originalTela: tlou,
     newContent: ["3 hours story", "new characteres"],
 };
+// As interfaces servem somente para criação de objetos mais complexos.
+class CreateGame {
+    constructor(t, d, g) {
+        this.title = t;
+        this.description = d;
+        this.genre = g;
+    }
+}
